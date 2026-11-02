@@ -8,7 +8,7 @@ if mods["VFG-Cargo-Drops-Require-Research"] then
       merge(data.raw.technology["lightning-collector"], {
         name = "lightning-rod",
         prerequisites = { "electromagnetic-science-pack" },
-        icon = "__Rocs-Hardcore-Fulgora__/graphics/technology/lightning-rod.png",
+        icon = "__Rocs-Hardcore-Fulgora-Extended__/graphics/technology/lightning-rod.png",
         icon_size = 352,
         effects = {
           {
@@ -41,7 +41,7 @@ if mods["VFG-Cargo-Drops-Require-Research"] then
       type = "technology",
       name = "fulgoran-ruin-attractor-mining",
       localised_name = { "", { "entity-name.fulgoran-ruin-attractor" }, " ", { "rocs-hardcore-fulgora.mining" } },
-      icon = "__Rocs-Hardcore-Fulgora__/graphics/technology/fulgoran-ruin-attractor-mining.png",
+      icon = "__Rocs-Hardcore-Fulgora-Extended__/graphics/technology/fulgoran-ruin-attractor-mining.png",
       icon_size = 256,
       prerequisites = { "planet-discovery-fulgora" },
       effects = {
