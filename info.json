@@ -1,0 +1,19 @@
+{
+  "name": "Rocs-Hardcore-Fulgora-Extended",
+  "version": "0.0.0",
+  "factorio_version": "2.1",
+  "title": "Hard Fulgora",
+  "author": "thesixthroc,ichbestimmtnicht",
+  "contact": "Discord: https://discord.gg/VuVhYUBbWE",
+  "description": "Difficulty tweaks for Fulgora. If 'V/F/G Cargo Drops Require Research' is installed, lightning rods are locked behind a new technology to incentivize building a small science chain on Fulgora. For full details, see the mod portal page.\n\nOther dependencies are intended to be included, but all are listed as optional for maximum customizability. To get the full experience, enable this mod via the Space Age: Hard Mode modpack.",
+  "homepage": "https://foundrygg.com",
+  "space_travel_required": true,
+  "dependencies": [
+    "base >= 2.0.19",
+    "space-age >= 2.0.19",
+    "PlanetsLib >= 1.10.4",
+    "? VFG-Cargo-Drops-Require-Research",
+    "? Rocs-Hardcore-Lightning-Storms",
+    "? Electric_flying_enemies"
+  ]
+}
